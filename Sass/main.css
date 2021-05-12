@@ -1,0 +1,108 @@
+/*
+Al-Mohaimin-Frabi.com Reset Stylesheet
+v1.0.0
+Last Updated: 2021-05-12
+Author: Al-Mohaimin-Frabi
+Facebook: @Al Mohaimin Frabi
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+a, a:hover, a::after, a::before {
+  text-decoration: none !important;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.nav_box {
+  width: calc(100vw - 95vw);
+  height: 100vh;
+  position: fixed;
+  background-color: #12cb7e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 360ms ease;
+  transition: 360ms ease;
+}
+
+.nav_box .navbar_nav {
+  width: 100%;
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_box .navbar_nav li {
+  padding: 0rem 0rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_box .navbar_nav i {
+  color: #241999;
+  font-size: 1.5rem;
+  margin-right: .3rem;
+}
+
+.nav_box .navbar_nav a span {
+  display: none;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.nav_box:hover .navbar_nav a span {
+  display: inline-block;
+}
+
+.nav_box:hover {
+  width: 170px;
+}
+
+.nav_box:hover .navbar_nav {
+  width: 100%;
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.nav_box:hover .navbar_nav li {
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,93 @@
+/*
+Al-Mohaimin-Frabi.com Reset Stylesheet
+v1.0.0
+Last Updated: 2021-05-12
+Author: Al-Mohaimin-Frabi
+Facebook: @Al Mohaimin Frabi
+*/
+
+// ************ Global Reset start************//
+// ***************************************** //
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+a, a:hover, a::after, a::before{
+  text-decoration: none !important;
+}
+ul,li {
+  list-style: none;
+}
+// ************ Global Reset end ************//
+// ***************************************** //
+
+
+
+// ************ Main css start ************//
+//*************************************** //
+$link-color: #000000;
+$icon-color:#241999;
+$bg-color: #12cb7e;
+
+//** Nav bar csss start** //
+.nav_box{
+  width: calc(100vw - 95vw);
+  height:100vh;
+  position: fixed;
+  background-color: $bg-color;
+  display: flex;  
+  justify-content: center;
+  transition: 360ms ease;
+  .navbar_nav{
+    width: 100%;
+    padding-top:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.nav_box .navbar_nav li {
+  padding: 0rem 0rem 2rem;
+  display: flex;
+  align-items: center;
+}
+.nav_box .navbar_nav i {
+  color:$icon-color;
+  font-size: 1.5rem;
+  margin-right: .3rem;
+
+}
+.nav_box .navbar_nav a span {
+  display: none;
+  color:$link-color;
+  font-size:1rem ;
+}
+.nav_box:hover .navbar_nav a span {
+  display: inline-block;
+
+}
+.nav_box:hover{
+  width: 170px;
+ 
+
+}
+.nav_box:hover .navbar_nav{
+  width: 100%;
+  padding-top:2rem;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+
+  li{
+    padding-left: 1rem;
+    display: flex; 
+
+  }
+ 
+}
+
+//** Nav bar csss end** //
